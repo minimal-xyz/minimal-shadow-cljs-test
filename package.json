@@ -1,0 +1,19 @@
+{
+  "name": "minimal-shadow-cljs-nodejs",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "shadow-cljs watch app",
+    "compile": "shadow-cljs compile app",
+    "build": "shadow-cljs release app"
+  },
+  "keywords": [],
+  "author": "jiyinyiyong",
+  "license": "MIT",
+  "devDependencies": {
+    "shadow-cljs": "^0.18.5",
+    "source-map-support": "^0.4.15",
+    "ws": "^3.1.0"
+  }
+}
