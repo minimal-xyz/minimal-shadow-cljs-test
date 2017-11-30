@@ -1,6 +1,6 @@
 
 (ns server.test
-  (:require [cljs.test :refer-macros [deftest is testing run-tests]]))
+  (:require [cljs.test :refer [deftest is testing run-tests]]))
 
 (defn is-positive? [x]
   (not (neg? x)))
