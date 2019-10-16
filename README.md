@@ -17,17 +17,14 @@ yarn # or npm
 Run tests:
 
 ```bash
-yarn shadow-cljs compile app &&
-node target/test.js
+yarn shadow-cljs compile app
+# we have `:autorun true`
 ```
 
 Or start shadow-cljs in watch mode:
 
 ```bash
 yarn shadow-cljs watch app
-
-# then...
-# node target/test.js
 ```
 
 ### Steps

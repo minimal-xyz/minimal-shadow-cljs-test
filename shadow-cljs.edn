@@ -1,7 +1,7 @@
 
 {:source-paths ["src"]
  :dependencies []
- :builds {:app {:target :node-script
+ :builds {:app {:target :node-test
                 :output-to "target/test.js"
-                :main server.test/main!
-                :devtools {:after-load server.test/reload!}}}}
+                :ns-regexp "test$"
+                :autorun true}}}
